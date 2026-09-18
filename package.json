@@ -38,12 +38,16 @@
   "bin": {
     "showdown": "bin/showdown.js"
   },
+  "files": [
+    "bin",
+    "dist"
+  ],
   "devDependencies": {
     "chai": "4.1.x",
     "grunt": "^1.0.3",
     "grunt-contrib-clean": "1.1.x",
     "grunt-contrib-concat": "1.0.x",
-    "grunt-contrib-jshint": "1.1.x",
+    "grunt-contrib-jshint": "~2.0.0",
     "grunt-contrib-uglify": "~3.3.0",
     "grunt-conventional-changelog": "6.1.x",
     "grunt-conventional-github-releaser": "1.0.x",
@@ -53,13 +57,13 @@
     "load-grunt-tasks": "3.5.x",
     "performance-now": "2.0.x",
     "quiet-grunt": "0.2.x",
-    "semver": "5.4.x",
+    "semver": "~5.6.0",
     "semver-sort": "0.0.x",
     "sinon": "^5.1.1",
     "source-map-support": "^0.5.9"
   },
   "dependencies": {
-    "jsdom": "^11.0.0",
+    "jsdom": "^12.2.0",
     "yargs": "^12.0.2"
   }
 }
